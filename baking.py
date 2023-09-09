@@ -21,7 +21,7 @@ def print_ingredients():
 
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
-print_ingredients()
+# print_ingredients()
 # String methods
 def confirm_ingredients():
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
