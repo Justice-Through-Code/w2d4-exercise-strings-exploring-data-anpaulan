@@ -8,7 +8,7 @@ ingredient_4 = 'sugar'
 
 
 def print_ingredients():  
-    print('\n', ingredient_1, '\n', ingredient_2, '\n', ingredient_3, '\n', ingredient_4)
+    print(ingredient_1, ',', ingredient_2, ',', ingredient_3, ',', ingredient_4)
     print(ingredient_1 + ' ' + ingredient_2 + ' ' + ingredient_3 + ' ' + ingredient_4)
     print(f'{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}')
     # Ways to work with strings/printing
@@ -53,7 +53,7 @@ def confirm_ingredients():
     # 2.7 That looks better. Let's make it official: use another string method to 
     # print the string in the `ingredients` variable in all-caps now that it's right.
 
-confirm_ingredients()
+# confirm_ingredients()
 
 
 def favorite_bake():
@@ -83,4 +83,4 @@ def favorite_bake():
 
     print(f'Ooooh, {baked_good}s are delicious!')
     print(f'We recommend you eat {baked_good}s at least {frequency * 2} times a month!')
-favorite_bake()
+# favorite_bake()
