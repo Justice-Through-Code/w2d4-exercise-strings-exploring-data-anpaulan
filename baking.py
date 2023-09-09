@@ -21,7 +21,7 @@ def print_ingredients():
 
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
-# print_ingredients()
+print_ingredients()
 # String methods
 def confirm_ingredients():
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
@@ -53,7 +53,7 @@ def confirm_ingredients():
     # 2.7 That looks better. Let's make it official: use another string method to 
     # print the string in the `ingredients` variable in all-caps now that it's right.
 
-# confirm_ingredients()
+confirm_ingredients()
 
 
 def favorite_bake():
@@ -83,4 +83,4 @@ def favorite_bake():
 
     print(f'Ooooh, {baked_good}s are delicious!')
     print(f'We recommend you eat {baked_good}s at least {frequency * 2} times a month!')
-# favorite_bake()
+favorite_bake()
