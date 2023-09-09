@@ -26,7 +26,8 @@ def print_ingredients():
 def confirm_ingredients():
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
     ingredients = (f'{ingredient_1}, {ingredient_2}, {ingredient_3}, {ingredient_4}')
-    print(ingredient_1.replace('milk','butter'))
+    ingredient_1 = ingredient_1.replace('milk','butter')
+    print(ingredient_1)
     print(ingredients.count('milk'))
     print(ingredients)
     ingredients = ingredients.replace('milk','butter')
@@ -53,7 +54,7 @@ def confirm_ingredients():
     # 2.7 That looks better. Let's make it official: use another string method to 
     # print the string in the `ingredients` variable in all-caps now that it's right.
 
-# confirm_ingredients()
+confirm_ingredients()
 
 
 def favorite_bake():
