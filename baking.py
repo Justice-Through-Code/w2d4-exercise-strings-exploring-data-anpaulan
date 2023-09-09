@@ -58,7 +58,7 @@ print(ingredients.upper())
 baked_good = input('What is your favorite baked good?')
     # 3.2 Create a second variable called `frequency` that asks the user:
     # Roughly how many times a month do you eat <baked_good>s? <-- use your `baked_good` variable in an f-string here
-frequency = input('Roughly how many times a month do you eat {baked_good}?')
+frequency = input(f'Roughly how many times a month do you eat {baked_good}?')
     # When the user inputs a number, what data type is it saved as?
 print(type(baked_good))
     # 3.3 Print out the _type_ of the `frequency` variable to check.
