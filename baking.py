@@ -8,9 +8,9 @@ ingredient_4 = 'sugar'
 
 
 def print_ingredients():  
-    print(' ', ingredient_1, '\n', ingredient_2, '\n', ingredient_3, '\n', ingredient_4)
-    print(ingredient_1, ' ', ingredient_2, ' ', ingredient_3, ' ', ingredient_4)
-    print(f'{ingredient_1},{ingredient_2},{ingredient_3}, {ingredient_4}')
+    print('\n', ingredient_1, '\n', ingredient_2, '\n', ingredient_3, '\n', ingredient_4)
+    print(ingredient_1 + ' ' + ingredient_2 + ' ' + ingredient_3 + ' ' + ingredient_4)
+    print(f'{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}')
     # Ways to work with strings/printing
     # Those are the right ingredients, aren't they? Let's print them out a few different ways to check
 
@@ -25,11 +25,11 @@ def print_ingredients():
 # String methods
 def confirm_ingredients():
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
-    ingredients = (f'{ingredient_1},{ingredient_2},{ingredient_3}, {ingredient_4}')
+    ingredients = (f'{ingredient_1}, {ingredient_2}, {ingredient_3}, {ingredient_4}')
     print(ingredient_1.replace('milk','butter'))
     print(ingredients.count('milk'))
     print(ingredients)
-    ingredients = ingredient_1.replace('milk','butter')
+    ingredients = ingredients.replace('milk','butter')
     print(ingredients)
     print(ingredients.upper())
 
