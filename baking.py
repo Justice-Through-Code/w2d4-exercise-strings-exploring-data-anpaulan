@@ -36,7 +36,7 @@ def confirm_ingredients():
 
 
     # 2.1 Save the f-string you wrote above into a variable called `ingredients`.
-
+# as in put my lines of code here? instead of all together like I have above?
     # Aha, that's the issue! We need to use butter, not milk.
     # 2.2 In a print statement, use one of the string methods from class to replace 'milk' with 'butter'
 
@@ -54,13 +54,12 @@ def confirm_ingredients():
     # 2.7 That looks better. Let's make it official: use another string method to 
     # print the string in the `ingredients` variable in all-caps now that it's right.
 
-confirm_ingredients()
+# confirm_ingredients()
 
 
 def favorite_bake():
     baked_good = input('What is your favorite baked good?')
     frequency = input(f'Roughly how many times a month do you eat {baked_good}s?')
-    print(type(baked_good))
     print(type(frequency))
     frequency  = int(frequency)
     
