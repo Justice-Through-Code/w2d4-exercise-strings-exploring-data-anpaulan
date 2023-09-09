@@ -26,8 +26,8 @@ def print_ingredients():
 def confirm_ingredients():
     global ingredient_1, ingredient_2, ingredient_3, ingredient_4
     ingredients = (f'{ingredient_1}, {ingredient_2}, {ingredient_3}, {ingredient_4}')
-    ingredient_1 = ingredient_1.replace('milk','butter')
-    print(ingredient_1)
+    print(ingredient_1.replace('milk','butter'))
+    # print(ingredient_1)
     print(ingredients.count('milk'))
     print(ingredients)
     ingredients = ingredients.replace('milk','butter')
