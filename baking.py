@@ -8,7 +8,7 @@ ingredient_4 = 'sugar'
 
 
 def print_ingredients():  
-    print(ingredient_1, ',', ingredient_2, ',', ingredient_3, ',', ingredient_4)
+    print(ingredient_1, ingredient_2, ingredient_3, ingredient_4)
     print(ingredient_1 + ' ' + ingredient_2 + ' ' + ingredient_3 + ' ' + ingredient_4)
     print(f'{ingredient_1} {ingredient_2} {ingredient_3} {ingredient_4}')
     # Ways to work with strings/printing
