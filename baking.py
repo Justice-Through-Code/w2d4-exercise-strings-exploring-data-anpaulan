@@ -31,7 +31,7 @@ def favorite_bake():
 print(type(baked_good))
 print(type(frequency))
 frequency = int(frequency)
-print('Ooooh, {baked_good}s are delicious!')
+print(f'Ooooh, {baked_good}s are delicious!')
 print(f'We recommend you eat {baked_good}s at least {frequency * 2} times a month!')
 
 # # # Ways to work with strings/printing
